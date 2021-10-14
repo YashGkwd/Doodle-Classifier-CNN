@@ -19,8 +19,8 @@ Convolutional Layer
 |---|--|--|--|--|
 |Conv1| (5,5)|8|(2,2)|1|
 |Conv2| (5,5)|16|(2,2)|1|
-|Conv3|(3,3)|28|-|1|
-|Conv4|(3,3)|48|-|1|
+|Conv3|(3,3)|28|None|1|
+|Conv4|(3,3)|48|None|1|
 
 
 Fully Connected Layer
@@ -29,6 +29,7 @@ Fully Connected Layer
 |Fc layer1|(48 x 5 x 5,500)|
 |Fc layer2|(500,250)|
 |Fc layer3|(250,20)|
+
 ### Hyper parameters
 |Parameters| Values|
 |------|---|
