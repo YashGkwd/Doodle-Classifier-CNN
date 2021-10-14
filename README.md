@@ -24,8 +24,13 @@ The Neural Network Model was trained on a dataset consisting of 2807037 images c
 |Loss function|BCE Loss|
 
 ## Output 
+The Loss Vs number of Epochs
+![Screenshot (138)](https://user-images.githubusercontent.com/73688295/137258580-a812e140-cc36-4c8a-b44f-63c26c1a7600.png)
 
 
+Accuracy of model on Training dataset --> 95.77 %
+
+Accuracy of model on Testing dataset-->  95.74 %
 
 
 
