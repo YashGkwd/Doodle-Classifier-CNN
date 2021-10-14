@@ -12,8 +12,24 @@ The Neural Network Model was trained on a dataset consisting of 2807037 images c
 - OpenCV (For creating the drawing pad)
 - Matplotlib (for plotting graphs and images)
 - Numpy
+## CNN Model
+### Architecture 
+Convolutional Layer
+|Layer|Kernel size| Filters|Maxpool|Padding|
+|---|--|--|--|--|
+|Conv1| (5,5)|8|(2,2)|1|
+|Conv2| (5,5)|16|(2,2)|1|
+|Conv3|(3,3)|28|-|1|
+|Conv4|(3,3)|48|-|1|
 
-## Hyper parameters
+
+Fully Connected Layer
+|Layer|Size|
+|--|--|
+|Fc layer1|(48 x 5 x 5,500)|
+|Fc layer2|(500,250)|
+|Fc layer3|(250,20)|
+### Hyper parameters
 |Parameters| Values|
 |------|---|
 | Learning rate|0.01|
@@ -28,9 +44,10 @@ The Loss Vs number of Epochs
 ![Screenshot (138)](https://user-images.githubusercontent.com/73688295/137258580-a812e140-cc36-4c8a-b44f-63c26c1a7600.png)
 
 
-Accuracy of model on Training dataset --> 95.77 %
-
-Accuracy of model on Testing dataset-->  95.74 %
+|Dataset|Accuracy | 
+|----|----|
+|Training dataset| 95.77 %|
+| Testing dataset|  95.74 %|
 
 
 
