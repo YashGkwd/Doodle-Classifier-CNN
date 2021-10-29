@@ -1,15 +1,15 @@
 # Doodle-Classifier-CNN
-The Doodle classifier is based on a Neural Network which classifies the doodle input given by the user in 20 different classes.
+The Doodle classifier is based on a Convolutional Neural Network which classifies the doodle input given by the user in 20 different classes.
 
 ![87329602-73404680-c54c-11ea-9e82-06057b6a873f](https://user-images.githubusercontent.com/73688295/137089923-7a92a14e-2d14-45e1-a495-05bc7bd72cc4.gif)
 ## Dataset
-The Neural Network Model was trained on a dataset consisting of 2807037 images containing images of 20 differnt classes.
+The Neural Network Model was trained on a dataset consisting of 2807037 images containing images of 20 differnt classes.Each image is of the size 28 x 28.
 
 ![data (1)](https://user-images.githubusercontent.com/73688295/137096046-372afdbc-a076-4c2f-ba7a-adc4fb8d9696.png)
 
-## Required libraries
+## Libraries required
 - Pytorch (For implementing Neural Network and its training)
-- OpenCV (For creating the drawing pad)
+- OpenCV (For creating drawing pad)
 - Matplotlib (for plotting graphs and images)
 - Numpy
 ## CNN Model
@@ -40,7 +40,7 @@ Fully Connected Layer
 |Optimizer|SGD|
 |Loss function|BCE Loss|
 
-## Output 
+## Output of Model
 The Loss Vs number of Epochs
 ![Screenshot (138)](https://user-images.githubusercontent.com/73688295/137258580-a812e140-cc36-4c8a-b44f-63c26c1a7600.png)
 
@@ -50,7 +50,12 @@ The Loss Vs number of Epochs
 |Training dataset| 95.77 %|
 | Testing dataset|  95.74 %|
 
+## Final result
 
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/73688295/139380623-b9614ad1-14ed-44f1-aa3b-c47591bf37df.gif)
+
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/73688295/139380411-fe981d78-9a1d-481b-a26e-c0e9bb768ec3.gif)
 
 
 
