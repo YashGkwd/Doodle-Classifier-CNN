@@ -1,7 +1,11 @@
 # Doodle-Classifier-CNN
 The Doodle classifier is based on a Convolutional Neural Network which classifies the doodle input given by the user in 20 different classes.
 
-![87329602-73404680-c54c-11ea-9e82-06057b6a873f](https://user-images.githubusercontent.com/73688295/137089923-7a92a14e-2d14-45e1-a495-05bc7bd72cc4.gif)
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/73688295/139387196-b6ac70a2-2aa8-489d-8060-89eaaf52d012.gif)
+
+![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/73688295/139387379-9c6ae33a-145a-43a7-91e8-4a5022c3ea03.gif)
+
+
 ## Dataset
 The Neural Network Model was trained on a dataset consisting of 2807037 images containing images of 20 differnt classes.Each image is of the size 28 x 28.
 Dataset link: https://drive.google.com/file/d/1HS05bmAim7YRod3edsoMyQtXG_k1agJJ/view?usp=sharing
@@ -72,7 +76,6 @@ The Loss Vs number of Epochs
 
 
 
-Thanks to all the mentors of IvLabs for their contribution for this project.
 
 
 
