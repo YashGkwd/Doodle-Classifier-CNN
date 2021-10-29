@@ -15,16 +15,16 @@ Dataset link: https://drive.google.com/file/d/1HS05bmAim7YRod3edsoMyQtXG_k1agJJ/
 ## Approach
 The preliminary Stage involved studying and learning the basics of Machine Learning and Deep Learning algorithms.
 
-For better understanding of the topic, developed a Digit Classifier from scratch using the MNIST dataset coded using N. The writing of all the functions from scratch for the Forward and Backward propagation along with activations and calculating gradients and putting it all into an iterative learning function helped strengthen the concepts.
+For the better understanding of the topic,we first developed a Digit Classifier from scratch using the MNIST dataset using Numpy. All the functions were build from scratch for the Forward as well as Backward propagation.
 
-The CNN model is build with the help of pytorch library for the convolution of image with filters along with maxpooling. After multiple convolutional layers, the input representation is flattened into a feature vector and passed through a network of neurons to predict the output probabilities.
+The CNN model is build with the help of PyTorch library for the convolution of image with filters along with maxpooling. After multiple convolutional layers, the input representation is flattened into a feature vector and passed through a dense neural network for the output.
 A Drawing Pad is created using OpenCv for getting input from the user.
 PySimpleGUI is used for implementing GUI.
 
 ## Libraries required
-- Pytorch (For implementing Neural Network and its training)
+- PyTorch (For implementing Neural Network and its training)
 - OpenCV (For creating drawing pad)
-- Matplotlib (for plotting graphs and images)
+- Matplotlib (for plotting graphs and reading images)
 - Numpy
 - PySimpleGUI
 ## CNN Model
