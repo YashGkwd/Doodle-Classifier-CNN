@@ -7,6 +7,16 @@ The Neural Network Model was trained on a dataset consisting of 2807037 images c
 
 ![data (1)](https://user-images.githubusercontent.com/73688295/137096046-372afdbc-a076-4c2f-ba7a-adc4fb8d9696.png)
 
+## Approach
+The Prelimnary Stage involved studying and learning the basics of Machine Learning and Deep Learning algorithms .
+
+For better understanding of the topic, developed a Digit Classifier from scratch using the MNIST dataset coded using numpy. The writing of all the functions from scratch for the Forward and Backward propagation along with activations and calculating gradients and putting it all into an iterative learning function helped strengthen the concepts.
+
+The CNN model is coded with the help of pytorch library for the convolution of image with filters along with maxpooling. After multiple convolutional layers, the input representation is flattened into a feature vector and passed through a network of neurons to predict the output probabilities.
+
+A Drawing Pad is also created using OpenCv to facilitate the user in giving inputs in drawing the doodle for the developed model to classify it.
+PySimpleGUI is used for implementing GUI.
+
 ## Libraries required
 - Pytorch (For implementing Neural Network and its training)
 - OpenCV (For creating drawing pad)
