@@ -12,6 +12,7 @@ The Neural Network Model was trained on a dataset consisting of 2807037 images c
 - OpenCV (For creating drawing pad)
 - Matplotlib (for plotting graphs and images)
 - Numpy
+- PySimpleGUI
 ## CNN Model
 ### Architecture 
 Convolutional Layer
