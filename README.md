@@ -13,9 +13,9 @@ Dataset link: https://drive.google.com/file/d/1HS05bmAim7YRod3edsoMyQtXG_k1agJJ/
 ![data (1)](https://user-images.githubusercontent.com/73688295/137096046-372afdbc-a076-4c2f-ba7a-adc4fb8d9696.png)
 
 ## Approach
-The preliminary Stage involved studying and learning the basics of Machine Learning and Deep Learning algorithms.
+The preliminary stage involved studying and learning the basics of Machine Learning and Deep Learning algorithms.
 
-For the better understanding of the topic,we first developed a Digit Classifier from scratch using the MNIST dataset using Numpy. All the functions were build from scratch for the Forward as well as Backward propagation.
+For the better understanding of the topic, we first developed a Digit Classifier from scratch using the MNIST dataset using Numpy library. All the functions were build from scratch for the Forward as well as Backward propagation.
 
 The CNN model is build with the help of PyTorch library for the convolution of image with filters along with maxpooling. After multiple convolutional layers, the input representation is flattened into a feature vector and passed through a dense neural network for the output.
 A Drawing Pad is created using OpenCv for getting input from the user.
