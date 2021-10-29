@@ -32,7 +32,7 @@ class Net(nn.Module):
 cl=["Airplane","Ant","Banana","Baseball","Bird","Bucket","Butterfly","Cat","Coffee","Dolplin","Donut","Duck",
     "Fish","Leaf",'Mountain','Pencil','Smiley face','Snake','Umbrella','Wine bottle']
 Doodle=Net()
-file="doodle.pth" #paste your .pth file path here
+file="<.pth file path here> " #paste your .pth file path here
 dev=torch.device('cpu')
 Doodle.load_state_dict(torch.load(file,map_location=dev))# loading the .pth file in the Model
 
